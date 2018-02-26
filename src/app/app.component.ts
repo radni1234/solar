@@ -9,9 +9,9 @@ import { ModalDirective } from 'ngx-bootstrap/modal';
 })
 export class AppComponent {
   @ViewChild('childModal') childModal: ModalDirective;
-  private pov: string;
-  private snaga: string;
-  private prinos: string;
+  public pov: string;
+  public snaga: string;
+  public prinos: string;
 
 
   krovovi = [
